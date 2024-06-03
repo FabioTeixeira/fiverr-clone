@@ -6,7 +6,7 @@ interface CreateGigProps {
     }
 }
 
-const CreateGig = () => {
+const CreateGig = ({params}: CreateGigProps) => {
 
 }
 
