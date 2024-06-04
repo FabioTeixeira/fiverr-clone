@@ -1,13 +1,13 @@
-import {CreateForm} from '@/components/create-form'
+import { CreateForm } from "./_components/create-form";
 
 interface CreateGigProps {
-    params: {
-        username: string
-    }
+  params: {
+    username: string;
+  };
 }
 
-const CreateGig = ({params}: CreateGigProps) => {
-
-}
+const CreateGig = ({ params }: CreateGigProps) => {
+  return <div className="flex justify-center">xpto </div>;
+};
 
 export default CreateGig;
